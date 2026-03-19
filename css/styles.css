@@ -2,15 +2,11 @@
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap)');
-
-/* Styles for the body */
-
 body {
-	 font-family: "Merriweather", "Times New Roman", Times, serif;
-  color: #202030;
+  font-family: "Merriweather", "Times New Roman", Times, serif;
+  color: #70033F;
   background-color: #f8f8fc;
 }
-
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
