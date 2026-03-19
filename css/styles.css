@@ -49,3 +49,13 @@ body {
 	height: 1em;
 	flex-basis: 1.4em;
 }
+
+/* Custom class for highlighted content */
+.accent-box {
+  background-color: #FFBAD7;
+  border-left: 4px solid #FB87BE;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  border-radius: 4px;
+}
+
