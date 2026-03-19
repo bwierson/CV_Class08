@@ -2,6 +2,7 @@
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap)');
+
 body {
   font-family: "Merriweather", "Times New Roman", Times, serif;
   color: #70033F;
@@ -54,4 +55,28 @@ body {
   margin-top: 0.5rem;
   border-radius: 4px;
 }
-
+.language-name {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+.language-level {
+  height: 2rem;
+  border: 2px solid #FB87BE;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+.language-progress {
+  background-color: #FFBAD7;
+  height: 100%;
+}
+.language-level span {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #70033F;
+  line-height: 1;
+}
