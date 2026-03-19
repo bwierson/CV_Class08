@@ -80,3 +80,8 @@ body {
   color: #70033F;
   line-height: 1;
 }
+
+.custom-text {
+  color: #DE5300;
+  font-family: "Merriweather", serif;
+}
